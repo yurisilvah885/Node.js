@@ -1,0 +1,8 @@
+cost timeout = 2000
+const checking= ()=> console.log("olá")
+
+let interval= SetInterval (checking, timeout)
+
+SetTimeout( () => ClearInterval (interval), 6000)
+
+// vai rodar "olá" a cada 2 segundos, e quando chegar nos 6 segundos, vai cancelar a função
