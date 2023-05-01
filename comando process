@@ -1,0 +1,7 @@
+console.log(process.argv)
+node process Yuri Silva
+const name= process.argv[2]
+console.log(´seu nome é ${name}´)
+
+const lastname=process.argv[3]
+console.log(´seunome é ${name} ${lastname}´)
