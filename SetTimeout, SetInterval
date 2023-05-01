@@ -1,0 +1,19 @@
+//JS
+
+const timeout= 3000
+const finished= () => console.log ('done!')
+SetTimeout(finished, timeout)
+
+//no node.js
+node SetTimeout.js
+
+
+//JS
+
+const timeout= 3000
+const checking= () => console.log ('done!')
+SetInterval(checking, timeout)
+
+//no node.js
+node SetInterval.js
+
