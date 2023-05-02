@@ -1,0 +1,8 @@
+const {EventEmitter}= require (Event)
+const ev= new EvenEmitter()
+console.log(ev)
+
+ev.on('SaySomething', ()=>{
+console.log('eu ouvi você) ) }
+
+ev.emit(SaySomething)
